@@ -1,7 +1,9 @@
 --- a/drivers/net/wireless/ath/ath9k/Makefile	
 +++ b/drivers/net/wireless/ath/ath9k/Makefile	
-@@ -77,3 +77,4 @@
+@@ -78,5 +78,6 @@
  ath9k_htc-$(CPTCFG_ATH9K_HTC_DEBUGFS) += htc_drv_debug.o
  
  obj-$(CPTCFG_ATH9K_HTC) += ath9k_htc.o
-+obj-m	+= ar9003_csi.o
++obj-m += ar9003_csi.o
+ 
+ obj-$(CPTCFG_ATH9K_PCI_NO_EEPROM) += ath9k_pci_owl_loader.oy
